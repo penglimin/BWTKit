@@ -165,12 +165,12 @@
 		564808E11F28985C0045AB7D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				564808E21F28985C0045AB7D /* DataCache */,
+				564808E21F28985C0045AB7D /* DataCache(数据持久化) */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		564808E21F28985C0045AB7D /* DataCache */ = {
+		564808E21F28985C0045AB7D /* DataCache(数据持久化) */ = {
 			isa = PBXGroup;
 			children = (
 				564808F81F28B6DD0045AB7D /* Keychain */,
@@ -178,6 +178,7 @@
 				564808ED1F289EC60045AB7D /* ArchiveData */,
 				564808E91F28991F0045AB7D /* FileManager */,
 			);
+			name = "DataCache(数据持久化)";
 			path = DataCache;
 			sourceTree = "<group>";
 		};
@@ -614,6 +615,7 @@
 				564808DA1F2898140045AB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		564808DB1F2898140045AB7D /* Build configuration list for PBXNativeTarget "BWTKitTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +624,7 @@
 				564808DD1F2898140045AB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		564808DE1F2898140045AB7D /* Build configuration list for PBXNativeTarget "BWTKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +633,7 @@
 				564808E01F2898140045AB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
